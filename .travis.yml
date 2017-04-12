@@ -30,7 +30,7 @@ matrix:
       env: REQUIREMENTS=requirements-dev.txt VENV=pypy
       services:
         - docker
-    - python: "3.6"
+    - python: "3.6"  # Was test error a fluke?
       env: REQUIREMENTS=requirements3-dev.txt VENV=python3.6
       services:
         - docker
